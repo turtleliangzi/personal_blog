@@ -44,25 +44,20 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-item-child radius-3" href="http://blog.iwanli.me">
+                                <a class="nav-item-child radius-3" href="/blog">
                                     博客
                                 </a>
                             </li>
 
+
                             <li class="nav-item">
                                 <a class="nav-item-child radius-3" href="javascript:void(0);">
-                                    学院(Comming)
+                                    关于我
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-item-child radius-3" href="javascript:void(0);">
-                                    关于我(Comming)
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-item-child radius-3" target="_blank" href="https://github.com/lanceWan">
+                                <a class="nav-item-child radius-3" target="_blank" href="https://github.com/turtleliangzi">
                                     Github
                                 </a>
                             </li>
@@ -79,13 +74,13 @@
     <section class="promo-block-v11 fullheight">
         <div class="container vertical-center-aligned">
             <div class="margin-b-30">
-                <h1 class="promo-block-v11-title wow fadeInUp" >晚黎</h1>
+                <h1 class="promo-block-v11-title wow fadeInUp" >Turtle</h1>
                 <p class="promo-block-v11-subtitle wow fadeInUp" data-wow-duration=".2" data-wow-delay=".2s">I am a slow walker, but I never walk backwards...</p>
             </div>
 
             <ul class="list-inline promo-block-v11-category">
                 <li class="promo-block-v11-category-item wow bounceIn" data-wow-duration=".2" data-wow-delay=".4s">
-                    <a class="promo-block-v11-category-link radius-3" href="http://blog.iwanli.me">
+                    <a class="promo-block-v11-category-link radius-3" href="/blog">
                         <i class="promo-block-v11-category-icon fa fa-paper-plane"></i>
                         Blog
                     </a>
@@ -103,7 +98,7 @@
                     </a>
                 </li>
                 <li class="promo-block-v11-category-item wow bounceIn" data-wow-duration=".2" data-wow-delay="1s">
-                    <a class="promo-block-v11-category-link radius-3" target="_blank" href="https://github.com/lanceWan">
+                    <a class="promo-block-v11-category-link radius-3" target="_blank" href="https://github.com/turtleliangzi">
                         <i class="promo-block-v11-category-icon fa fa-github"></i>
                         Github
                     </a>

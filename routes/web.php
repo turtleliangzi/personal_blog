@@ -12,19 +12,13 @@
 */
 
 Auth::routes();
-Route::get('/', function () {
-    return view('front.index.index');
-});
 
-Route::group(['namespace' => 'Iwanli', 'domain' => 'iwanli.me'],function ($router){
+Route::group(['namespace' => 'Iwanli'],function ($router){
 	$router->get('/','IndexController@index');
 });
 
-Route::group(['namespace' => 'Iwanli', 'domain' => 'www.iwanli.me'],function ($router){
-	$router->get('/','IndexController@index');
-});
-Route::group(['namespace' => 'Iwanli', 'domain' => 'blog.iwanli.me'],function ($router){
-	$router->get('/','IndexController@blog');
+Route::group(['namespace' => 'Iwanli'],function ($router){
+	$router->get('/blog','IndexController@blog');
 	$router->post('search','IndexController@search');
 	$router->get('/test','ArticleController@test');
 	require(__DIR__ . '/front/category.php');

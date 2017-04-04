@@ -22,7 +22,7 @@
     @section('promo')
     <div class="promo-block-v2 fullheight text-center">
         <div class="container vertical-center-aligned">
-            <h1 class="promo-block-v2-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">Welcome To iWanli's Blog</h1>
+            <h1 class="promo-block-v2-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">Welcome To Turtle's Blog</h1>
             <p class="promo-block-v2-text margin-b-50 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
                 I am a slow walker, but I never walk backwards...
             </p>
@@ -66,9 +66,11 @@
                     @yield('content')
                 </div>
                 <div class="col-xs-12 col-md-3">
+{{--
                 @section('sidebar')
                     @include('layouts.partials.hot')
                     @include('layouts.partials.link')
+--}}
                 @show
                 </div>
             </div>
